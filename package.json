@@ -1,0 +1,26 @@
+{
+  "name": "guacamole-client-js-module",
+  "version": "1.1.0-b",
+  "description": "The Guacamole javascript client in ES6 module format",
+  "main": "dist/guacamole-common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlundquist/guacamole-client.git"
+  },
+  "author": "Nils Lundquist <nils@bitovi.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nlundquist/guacamole-client/issues"
+  },
+  "homepage": "https://github.com/nlundquist/guacamole-client#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-insert": "^0.5.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-rename": "^1.2.2"
+  }
+}
